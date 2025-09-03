@@ -1,0 +1,22 @@
+-- size of our actual window
+WINDOW_WIDTH = 1280
+WINDOW_HEIGHT = 720
+
+-- size we're trying to emulate with push
+VIRTUAL_WIDTH = 432
+VIRTUAL_HEIGHT = 243
+
+PADDLE_SPEED = 200
+GRID_SIZE = 16
+
+
+-- Tetris constants
+TETRIS_WINDOW_WIDTH = 480
+TETRIS_WINDOW_HEIGHT = 864
+
+TETRIS_VIRTUAL_WIDTH  = 240  -- 20 * 12
+TETRIS_VIRTUAL_HEIGHT = 432  -- 36 * 12
+
+TETRIS_GRID_SIZE = 12
+
+BRICK_TYPES = {'I', 'L', 'J', 'O', 'S', 'Z', 'T'}
